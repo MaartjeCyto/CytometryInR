@@ -1,0 +1,31 @@
+---
+title: "Week1"
+author: "Maartje"
+date: 26-04-2026
+format: pdf
+---
+# Problem 1 
+```{r}
+library(PeacoQC)
+```
+# Answer 1
+
+#PeacoQC will determine peaks on the channels in the flowframe. Then it will remove anomalies caused by e.g. clogs, changes in speed etc. by using an IsolationTree and/or the MAD method. 
+
+# Problem 2 
+Take a closer look at the list of Bioconductor cytometry packages. Report back on how many there are currently in Bioconductor, the author/maintainer with the most contributed cytometry R packages, and a couple packages that you would be interested in exploring more in-depth later in the course.
+
+# answer 2
+69
+Mike Jiang
+flowAI
+flowMerge
+flowCyBar
+
+# problem 3
+![](c:\Users\maart\MaartjeCyto\Week 1\Images\image.png)
+![](c:\Users\maart\MaartjeCyto\Week 1\Images\Install broom.png)
+For installing with pak you don't need to know where the package is stored (CRAN/Bioconductor or github). Also the summary of how the installation process was done in the console is much more concise compared to install() install.packages() or install_github
+![](c:\Users\maart\MaartjeCyto\Week 1\Images\Installing cytomem.png)
+I have an error for installing CytoExploreR and I don't know how to fix that
+![](c:\Users\maart\MaartjeCyto\Week 1\Images\Error CytoExploreR.png)
